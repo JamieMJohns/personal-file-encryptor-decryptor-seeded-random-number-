@@ -3,7 +3,13 @@ test python program i made which encrypts encoding of files in a specified folde
   
 When I have time, I will update the repository with more indepth description but for; refer to comments in .py code
 for understand how program works.  
-
-<repository to be updated soon>  
   
+<repository to be updated soon>  
+    
+  -> also working on making developing as standalone program as have done with previous python codes  
+ Modules required (for running in python);  
+ ->numpy  
+ ->string  
+ ->os  
+    
 - jamie johns  
