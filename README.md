@@ -35,4 +35,12 @@ Current bug in program (to  be fixed soon)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -->file.5.0 [missing file type and rest of original file name (potentially corrupted)]  
 -->fileLast.mp3 (works like original file [before encryption])  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+
+Also to be added in update:  
+pseudo-random number generation with numpy or other module (compiling to exe [i.e using pyinstaller])  
+results in large file (>120mb) because of dependencies for numpy module;  
+I have worked on code to generate pseudo-random numbers and will use it  
+to replace numpy module in future release.  
+
+
 - jamie johns  
