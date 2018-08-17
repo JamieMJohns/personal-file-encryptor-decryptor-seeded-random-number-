@@ -17,15 +17,15 @@ Current bug in program (to  be fixed soon)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -->file.txt  
 -->file_2.png  
 -->file.3.exe  
--->file.4.1.pdf [more than one full stop in full]   
--->file.5.2.6.jpg [more than one full stop in full]  
+-->file.4.1.pdf [more than one full stop in full name]   
+-->file.5.2.6.jpg [more than one full stop in full name]  
 -->fileLast.mp3  
 ===>Encrypted files look like:  
 -->file.jim  
 -->file_2.jim  
 -->file.3.jim  
--->file.4.jim [missing rest of filename after second full stop (previous name)]  
--->file.5.jim [missing rest of filename after second full stop (previous name)]  
+-->file.4.jim [missing rest of filename after second full stop (of previous name)]  
+-->file.5.jim [missing rest of filename after second full stop (of previous name)]  
 -->fileLast.jim  
 ===>Decrypted files look like:  
 -->file.txt (works like original file [before encryption])  
