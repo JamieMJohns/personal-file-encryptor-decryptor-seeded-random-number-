@@ -11,5 +11,28 @@ for understand how program works.
  ->numpy  
  ->string  
  ->os  
-    
+Current bug in program (to  be fixed soon)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+  To be fixed [easily fixed in next release]:     
+  For example files;  
+    file.txt  
+    file_2.png  
+    file.3.exe  
+    file.4.1.pdf [more than one full stop in full]   
+    file.5.2.6.jpg [more than one full stop in full]  
+    fileLast.mp3  
+ Encrypted files look like:  
+     file.jim  
+    file_2.jim  
+    file.3.jim  
+    file.4.jim [missing rest of filename after second full stop (previous name)]  
+    file.5.jim [missing rest of filename after second full stop (previous name)]  
+    fileLast.jim  
+  Decrypted files look like:  
+    file.txt (works like original file [before encryption])  
+    file_2.png (works like original file [before encryption])  
+    file.3.exe (works like original file [before encryption])  
+    file.4.0 [missing file type and rest of original file name (potentially corrupted)]  
+    file.5.0 [missing file type and rest of original file name (potentially corrupted)]  
+    fileLast.mp3 (works like original file [before encryption])  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
 - jamie johns  
