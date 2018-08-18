@@ -37,10 +37,10 @@ Current bug in program (to  be fixed soon)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
 
 Also to be added in update:  
-pseudo-random number generation with numpy or other module (compiling to exe [i.e using pyinstaller])  
+pseudo-random number generation without numpy or other module (compiling to exe [i.e using pyinstaller])  
 results in large file (>120mb) because of dependencies for numpy module;  
-I have worked on code to generate pseudo-random numbers and will use it  
-to replace numpy module in future release.  
+I have worked on code (and tested) to generate pseudo-random numbers and will use it  
+to replace numpy module in future release to be uploaded soon.  
 
 
 - jamie johns  
